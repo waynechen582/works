@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>土炮DIV</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: brown;
+        }
+
+        #header {
+            height: 300px;
+            background-color: rgb(142, 145, 145);
+        }
+
+        #nav {
+            height: 100px;
+            background-color: blue;
+        }
+
+        #aside {
+            height: 800px;
+            width: 20%;
+            background-color: rgb(215, 242, 250);
+            float: left;
+        }
+
+        #secti {
+            height: 800px;
+            width: 80%;
+            background-color: antiquewhite;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+        #footer {
+            height: 200px;
+            background-color: cadetblue;
+            clear: both;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .pic {
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            background-image: url(google.png);
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="main">
+            <div id="aside"></div>
+            <div id="secti">
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+                <div class="item">
+                    <div class="pic"></div>
+                    <h1>搜尋引擎</h1>
+                    <p>google</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>

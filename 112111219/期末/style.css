@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(128, 101, 235);
+    background-image: url(../112111219/img/back.jpg);
+    background-attachment: fixed;
+    background-size: 250px;
+    font-family: 微軟正黑體;
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+
+main a {
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    width: 180;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+#container {
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgba(213, 217, 255, 0.5);
+}
+
+.span:first-letter {
+    color: brown;
+    font-size: 200%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.name {
+    display: inline-block;
+}
+
+.imgR {
+    float: left;
+}
+
+.imgL {
+    float: right;
+}
+
+.clear {
+    clear: both
+}
+
+.hub-sup {
+    background-color: bisque;
+    color: rgb(218, 141, 69);
+    box-shadow: 0 0 5px 5px rgb(145, 72, 30);
+    border-radius: 10px;
+}

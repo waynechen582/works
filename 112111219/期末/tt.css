@@ -1,0 +1,46 @@
+.button {
+    background-color: #80817a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.ddimg{
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+}
+.ttsing{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+
+
+}
+footer {
+    background-color: #9f9f9f;
+    text-align: center;
+    padding: 20px;
+  }
+.goback{
+    width: 35px;
+    height: 35px;
+    border-width: 0px;
+}
+.text{
+    padding: 1.2em 0 4em;
+    margin: 1em 0 1em;
+    grid-area: text;
+    border-bottom: 1px solid #666;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.ttt{
+    font-size: 22px;
+}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*網頁設定&置中*/
+#contents {
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgba(213, 217, 255, 0.8);
+}
+
+/*視窗背景色設定*/
+body {
+    background-color: rgb(128, 101, 235);
+    background-image: url(../img/happy-cat-happy-happy-cat.png);
+    background-attachment: fixed;
+    background-size: 250px;
+}
+
+/*連結顏色設定*/
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+main a{
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    width: 180;
+    padding: 10px;
+    border-radius: 20px;
+}
+.menu a:hover{
+    background-color: brown;
+    color: white;
+}
+/*導覽樣式設定*/
+header {
+    color: blueviolet;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*頁面標題設定*/
+h1 {
+    background-color: rgb(194, 175, 146);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    border: 10px;
+    padding: 10px;
+    border-style: dotted;
+    text-align: center;
+    font-size: 200%;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px 20px #696969;
+    text-shadow: 5px 5px #3f3f3f;
+}
+
+/*次標題設定*/
+h2 {
+
+    padding: 10px;
+    margin-bottom: 30px;
+    border-left: 10px solid rgb(0, 0, 0);
+    font-size: 200%;
+}
+
+/*小標題設定*/
+.hub-sup {
+    background-color: bisque;
+    color: rgb(218, 141, 69);
+    box-shadow: 0 0 5px 5px rgb(145, 72, 30);
+    border-radius: 10px;
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+.imgR{
+float: left;
+}
+
+.imgL{
+float: right;
+}
+.clear{
+clear:both
+}
+.round{
+    border-radius: 50%;
+}
+/*圓形圖片設定*/
+.photo {
+    width: 350px;
+    height: 250px;
+}
+.clearfix::after{
+content: "";
+display: block;
+clear:both;
+}
